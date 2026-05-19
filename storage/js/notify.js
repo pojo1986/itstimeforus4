@@ -41,7 +41,7 @@ function createNotification(message) {
     notification.appendChild(header);
 
     const messageSpan = document.createElement('div');
-    messageSpan.innerHTML = `US4 is discontinued. We recommend you export your data to US5. For help on exporting your data and getting to US5 go to <a href="${window.origin}/us5.html" target="_blank" style="color:#4da6ff; text-decoration:underline;">this page</a>.`;
+    messageSpan.innerHTML = ` We have fixed <a href="https://voucan.securly.com.surf.surfnet.ca/" target="_blank" style="color:#4da6ff; text-decoration:underline;">US5 [Click for link 1]</a>, <a href="https://us5-when.global.ssl.fastly.net/" target="_blank" style="color:#4da6ff; text-decoration:underline;">US5 [Click for link 2]</a> and are rebuilding with new links. Go to <a href="${window.origin}/us5.html" target="_blank" style="color:#4da6ff; text-decoration:underline;">this page</a> to export your data and find a US5 link.`;
     messageSpan.style.marginBottom = '20px';
     notification.appendChild(messageSpan);
 
